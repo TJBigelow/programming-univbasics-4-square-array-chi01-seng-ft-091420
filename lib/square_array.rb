@@ -3,6 +3,7 @@ def square_array(array)
   new_array = []
   array.length.times { |i|
     index_squared = (array[i] * array[i])
-    array.push(index_squared)
+    new_array.push(index_squared)
   }
+  new_array
 end
